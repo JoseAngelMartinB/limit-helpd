@@ -32,6 +32,8 @@ It is possible to modify both input arguments to the script:
         <string>5</string>
 ```
 
+To remove the script:
+`launchctl unload -w /Library/LaunchAgents/local.limit-helpd.plist`
 
 ## Notes
 The script is extremely simple in what it does. It does not even check the input arguments (to do :-)
